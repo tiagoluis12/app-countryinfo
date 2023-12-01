@@ -52,7 +52,7 @@ This is the frontend part of the "Country Information" project By Bounce Insight
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/tiagoluis12/country-app
+$ git clone https://github.com/tiagoluis12/app-countryinfo
 # Access the project folder in your terminal
 $ cd countryinfo-react
 # Install the dependencies
