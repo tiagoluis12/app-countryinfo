@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+<a target="_blank" rel="noopener noreferrer" href="https://bounceinsights.com/wp-content/uploads/2020/06/method-draw-image-1.svg"><img src="https://bounceinsights.com/wp-content/uploads/2020/06/method-draw-image-1.svg" alt="Logo" width="260" height="160" style="max-width: 100%;"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- PROJECT LOGO -->
 
-## Available Scripts
+<br />
+<div align="center">
+  <h1 align="center">Countrypedia: Exploring the Nations of the World</h3>
+</div>
 
-In the project directory, you can run:
+<!-- TABLE OF CONTENTS -->
 
-### `npm start`
+## Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<p align="center">
+    <p><a href="#about-the-project" title=" go to About the Project">About The Project</a></p>
+    <p><a href="#running-locally" title=" go to Running locally">Running locally</a></p>
+    <p><a href="#screenshots" title=" go to Screenshots">Screenshots</a></p>
+    <p><a href="#features" title=" go to Features">Features</a></p>
+    <p><a href="#contact" title=" go to Contact">Contact</a></p>
+  </p>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<br>
+<!-- ABOUT THE PROJECT -->
 
-### `npm test`
+## About The Project
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Explore the interactive world map and discover country data from around the globe.
+This is the frontend part of the "Country Information" project By Bounce Insights. It provides an input and World Map to search for a country by name and a list of countries that match the search criteria. When a country is selected, it displays information about the country such as the capital, population, currency, etc. The project is built using React, Redux, Tailwind CSS, and react-svg-worldmap.
 
-### `npm run build`
+## Screenshots
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Light Theme
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![alt-2](images/light_theme/Country_Page.png)
+![alt-3](images/light_theme/Search_Popup.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Dark Theme
 
-### `npm run eject`
+![alt-2](images/dark_theme/Country_Page.png)
+![alt-3](images/dark_theme/Search_Popup.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Features
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Country data from REST COUNTRIES API
+- Redux integration for caching of data for minimal api calls
+- Search functionality for hard to locate countries with `react-search-autocomplete`
+- Beautiful and Responsive UI with Tailwind CSS
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<br>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Running locally
 
-## Learn More
+```bash
+# Clone this repository
+$ git clone https://github.com/tiagoluis12/country-app
+# Access the project folder in your terminal
+$ cd countryinfo-react
+# Install the dependencies
+$ npm i
+# Run the application
+$ npm start
+# The application will runing on port 3000, so you can access the url http://localhost:3000 to do the requests.
+# Run Cypress tests
+$ npx cypress open
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Contact
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Tiago Luis - tiago7164@hotmail.com - [https://github.com/tiagoluis12/](https://github.com/tiagoluis12)
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="right">(<a href="#top">back to top</a>)</p>
