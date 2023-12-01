@@ -31,13 +31,13 @@ This is the frontend part of the "Country Information" project By Bounce Insight
 
 ### Light Theme
 
+![alt-1](images/light_theme/Search_Popup.png)
 ![alt-2](images/light_theme/Country_Page.png)
-![alt-3](images/light_theme/Search_Popup.png)
 
 ### Dark Theme
 
+![alt-1](images/dark_theme/Search_Popup.png)
 ![alt-2](images/dark_theme/Country_Page.png)
-![alt-3](images/dark_theme/Search_Popup.png)
 
 ## Features
 
