@@ -1,7 +1,7 @@
 import * as React from "react";
+import { WorldMapPage } from "./world_map_page/WorldMapPage";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { SearchBar } from "./SearchBar/SearchBar";
 import { CountryPage } from "./country_page/CountryPage";
 
 function App() {
@@ -9,9 +9,9 @@ function App() {
     <div>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<SearchBar />}></Route>
+          <Route path="/" element={<WorldMapPage />}></Route>
           <Route
-            path="/countryinfo/:countryIso"
+            path="/countryName/:countryIso"
             element={<CountryPage />}
           ></Route>
         </Routes>

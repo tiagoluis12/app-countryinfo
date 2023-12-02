@@ -38,9 +38,11 @@ This is the frontend part of the "Country Information" project By Bounce Insight
 
 ![alt-1](images/dark_theme/Search_Popup.png)
 ![alt-2](images/dark_theme/Country_Page.png)
+![alt-2](images/dark_theme/WorldMap.png)
 
 ## Features
 
+- Interactive world map from react-svg-worldmap
 - Country data from REST COUNTRIES API
 - Redux integration for caching of data for minimal api calls
 - Search functionality for hard to locate countries with `react-search-autocomplete`
@@ -54,14 +56,12 @@ This is the frontend part of the "Country Information" project By Bounce Insight
 # Clone this repository
 $ git clone https://github.com/tiagoluis12/app-countryinfo
 # Access the project folder in your terminal
-$ cd countryinfo-react
+$ cd app-countryinfo
 # Install the dependencies
 $ npm i
 # Run the application
 $ npm start
 # The application will runing on port 3000, so you can access the url http://localhost:3000 to do the requests.
-# Run Cypress tests
-$ npx cypress open
 ```
 
 # Contact
