@@ -4,7 +4,7 @@
 
 <br />
 <div align="center">
-  <h1 align="center">Countrypedia: Exploring the Nations of the World</h3>
+  <h1 align="center">Country Information: Exploring the Nations of the World</h3>
 </div>
 
 <!-- TABLE OF CONTENTS -->
